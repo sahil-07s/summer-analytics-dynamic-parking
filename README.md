@@ -50,3 +50,7 @@ price = base_price + (occupancy * occupancy_weight)
               + (traffic_encoded * traffic_weight)
               + (is_special_day * special_day_surcharge)
               + (vehicle_weight * vehicle_type_weight)
+
+# Architecture Diagram
+
+![Architecture](architecture.png)
